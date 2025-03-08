@@ -1,14 +1,36 @@
-h1 {
+h1,
+h2,
+ h3{ 
     color: #E07A5F;
 }
-h2 { 
-    color: #E07A5F;
-}
+
 body {
     color: #B9B28A;
 }
-
+nav,
+footer {
+    background-color: #98D2C0;
+}
 
 .drinks {
-    background-color: #80CBC4;
+    background-color: #98D2C0;
+}
+main li:hover {
+    background-color: #F6F0F0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.drinks li {
+    padding-top: 40px;
+}
+
+.drinks {
+    margin-right: 15px;
+}
+
+.drinks {
+    margin-left: 15px;
 }
