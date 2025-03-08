@@ -62,3 +62,13 @@ ul {
     justify-items: center;
     font-size: 1.5em;
 }
+nav a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    padding-top: 20px
+    height: 50px;
+    color: white;
+    text-align: center;
+}
