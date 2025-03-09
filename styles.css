@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Delicious+Handrawn&display=swap');
+
 html,
 body,
 div,
@@ -22,21 +23,50 @@ section {
   font-size: 100%;
   font: inherit;
 }
-h1,
-h2,
- h3{ 
-    color: #E07A5F;
-}
 
 body {
     color: #B17F59;
     font-family: "Delicious Handrawn", cursive;
-      }
+} 
+
+h1,
+h2,
+ h3 { 
+    color: #E07A5F;
+}
+
 nav,
 footer {
     background-color: #98D2C0;
     font-family: "Big Shoulders Inline", sans-serif
 }
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    padding-top: 20px;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  h2 {
+    padding-top: 30px;
+    margin-left: 15px;
+  }
+
 
 .drinks {
     background-color: #98D2C0;
@@ -45,9 +75,7 @@ main li:hover {
     border: 2px solid white;
 }
 
-ul {
-    list-style-type: none;
-}
+
 
 .drinks li {
     padding-top: 40px;
@@ -65,16 +93,8 @@ ul {
     justify-items: center;
     font-size: 1.5em;
 }
-nav a {
-    color: white;
-    text-decoration: none;
-}
-footer {
-    padding-top: 20px;
-    height: 50px;
-    color: white;
-    text-align: center;
-}
+
+
 .hero {
     text-align: center;
     font-family: "Big Shoulders Inline", sans-serif;
