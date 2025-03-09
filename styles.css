@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz@10..72&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Delicious+Handrawn&display=swap');
 html,
 body,
 div,
@@ -29,9 +29,9 @@ h2,
 }
 
 body {
-    color: #B9B28A;
-    font-family: "Big Shoulders Inline", sans-serif;
-}
+    color: #B17F59;
+    font-family: "Delicious Handrawn", cursive;
+      }
 nav,
 footer {
     background-color: #98D2C0;
@@ -77,6 +77,7 @@ footer {
 }
 .hero {
     text-align: center;
+    font-family: "Big Shoulders Inline", sans-serif;
 }
 .hero-text h1{
     font-size: 5em;
@@ -86,6 +87,9 @@ footer {
 }
 .drinks h2{
     font-size: 3em;
+}
+p{
+    font-family: "Big Shoulders Inline", sans-serif;
 }
 h3.beverage {
     font-size: 1.5em;
@@ -105,7 +109,7 @@ p{
     font-size: 1.25em
 }
 .beverage::before {
+    margin-right: 10px;
     font: var(--fa-font-solid);
-    content: "\f000";
-
+    content: "\f561";
 }
