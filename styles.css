@@ -67,8 +67,23 @@ nav a {
     text-decoration: none;
 }
 footer {
-    padding-top: 20px
+    padding-top: 20px;
     height: 50px;
     color: white;
     text-align: center;
+}
+.hero {
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 5em;
+}
+.hero-text h2{
+    font-size: 1.5em;
+}
+.drinks h2{
+    font-size: 3em;
+}
+h3.beverage {
+    font-size: 1.5em;
 }
