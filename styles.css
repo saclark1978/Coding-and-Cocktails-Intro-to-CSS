@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz@10..72&family=Yellowtail&display=swap');
 html,
 body,
 div,
@@ -29,10 +30,12 @@ h2,
 
 body {
     color: #B9B28A;
+    font-family: "Big Shoulders Inline", sans-serif;
 }
 nav,
 footer {
     background-color: #98D2C0;
+    font-family: "Big Shoulders Inline", sans-serif
 }
 
 .drinks {
@@ -97,4 +100,12 @@ h2{
 }
 .drinks li {
     border-top: 1px dotted white;
+}
+p{
+    font-size: 1.25em
+}
+.beverage::before {
+    font: var(--fa-font-solid);
+    content: "\f000";
+
 }
